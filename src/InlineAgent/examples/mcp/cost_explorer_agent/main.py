@@ -36,7 +36,7 @@ async def main():
                 },
             ],
         ).invoke(
-            input_text="What is Amazon Bedrock? What are the AWS services where I spent most in last 7 days? Be pricise and create a bar graph."
+            input_text="What is Amazon Bedrock? What are the AWS services where I spent most in last 7 days? Be precise and create a bar graph."
         )
     finally:
         # LIFO
